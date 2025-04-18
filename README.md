@@ -28,3 +28,8 @@ authenticatedShouldReturnUserEntityWhenUserExists
 authenticatedShouldThrowUsernameNotFoundExceptionWhenUserDoesNotExists
 loadUserByUsernameShouldReturnUserDetailsWhenUserExists
 loadUserByUsernameShouldThrowUsernameNotFoundExceptionWhenUserDoesNotExists
+
+
+#### Postman:
+[Collection](<resources/Desafio DSMovie Jacoco.postman_collection.json>)
+[Environment](resources/DSMovie.postman_environment.json)
