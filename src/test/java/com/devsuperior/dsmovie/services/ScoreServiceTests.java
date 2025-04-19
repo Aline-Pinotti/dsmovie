@@ -61,6 +61,8 @@ public class ScoreServiceTests {
 		score = ScoreFactory.createScoreEntity();
 		scoreDTO = new ScoreDTO(score);
 
+		movie.getScores().add(score);
+
 		//mock authenticated user should be inside each method, since they could be in diferent scenarios for each test
 		Mockito.when(userService.authenticated()).thenReturn(user); //putting here because, in this specific case, I'm using the same authentication for both tests
 
