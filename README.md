@@ -35,6 +35,6 @@ loadUserByUsernameShouldThrowUsernameNotFoundExceptionWhenUserDoesNotExists
 [Environment](resources/DSMovie.postman_environment.json)
 
 #### Jacoco:
-[Relatório Jacoco](resources/jacoco-report/index.html)
+[Relatório Jacoco](target/jacoco-report)
 
 ![Jacoco report](resources/jacoco-report.png)
