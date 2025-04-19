@@ -44,7 +44,6 @@ public class ScoreServiceTests {
 
 	private Long existingMovieId, nonExistindMovieId;
 	private MovieEntity movie;
-	private MovieDTO movieDTO;
 	private UserEntity user;
 	private ScoreEntity score;
 	private ScoreDTO scoreDTO;
@@ -56,7 +55,6 @@ public class ScoreServiceTests {
 		nonExistindMovieId = 2L;
 
 		movie = MovieFactory.createMovieEntity();
-		movieDTO = new MovieDTO(movie);
 
 		user = UserFactory.createUserEntity();
 
